@@ -104,17 +104,17 @@ for (let i = 0; i < finances.length; i++) {
 
     total += amount
 
-    // if (greatest[1] < amount) {
-    //     greatest[0] = date
-    //     greatest[1] = amount
+    if (greatest[1] < amount) {
+        greatest[0] = date
+        greatest[1] = amount
         
-    // }
+    }
 
-    // if (least[1] > amount) {
-    //     least[0] = date
-    //     least[1] = amount
+    if (least[1] > amount) {
+        least[0] = date
+        least[1] = amount
         
-    // }
+    }
     // console.log(date);
     // console.log(amount);
     // console.log(finances [i + 1]);
